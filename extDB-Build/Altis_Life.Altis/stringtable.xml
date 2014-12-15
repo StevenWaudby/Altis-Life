@@ -186,7 +186,7 @@
  			<Original>You have deposited $%1 into your bank account</Original>
 			<German>Du hast $%1 auf dein Bankkonto überwiesen</German>
  			<French>Vous avez déposé $%1 dans votre compte bancaire</French>
-			<Italian>Hai despositato €%1 nel tuo conto bancario</Italian>
+			<Italian>Hai depositato €%1 nel tuo conto bancario</Italian>
 			<Portuguese>Você depositou R$%1 na sua conta bancária</Portuguese>
  		</Key>
  		<Key ID="STR_ATM_NoneSelected">
@@ -508,14 +508,14 @@
 			<Original>%1 and his gang: %2 - have taken control of a local hideout!</Original>
 			<German>%1 und seine Gang: 2% - haben die Kontrolle über ein lokales Versteck übernommen!</German>
 			<French>%1 et sa gang: %2 ont pris le controle de la cachette !</French>
-			<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
+			<Italian>%1 e la sua Gang: %2 - hanno preso il controllo di un Covo!</Italian>
 			<Portuguese>%1 e sua gangue: %2 - agora tem o controle de um esconderijo!</Portuguese>
 		</Key>
 		<Key ID="STR_GNOTF_Over32">
 			<Original>You can't have a gang name longer then 32 characters.</Original>
 			<German>Dein Gang Name kann nicht länger als 32 Zeichen sein.</German>
 			<French>Vous ne pouvez pas avoir un nom de gang de plus de 32 caractères.</French>
-			<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
+			<Italian>Il nome della Gang non può essere più lungo di 32 caratteri.</Italian>
 			<Portuguese>O nome de sua gangue não pode ter mais de 32 caracteres.</Portuguese>
 		</Key>
 		<Key ID="STR_GNOTF_IncorrectChar">
@@ -571,7 +571,7 @@
 			<Original>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</Original>
 			<German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst, wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken.</German>
 			<French>%1 vous a invité à un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous serez une partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</French>
-			<Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettarai l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
+			<Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettare l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
 			<Portuguese>%1 convidou você para a gangue %2&lt;br/&gt;Se você aceitar você terá acesso aos recursos da gangue e os esconderijos.</Portuguese>
 		</Key>
 		<Key ID="STR_GNOTF_InvitePlayerMSG">
@@ -846,7 +846,7 @@
 			<Original>The server is trying to store the vehicle...</Original>
 			<German>Der Server versucht, das Fahrzeug zu speichern...</German>	
 			<French>Le serveur tente de stocker le véhicule ...</French>
-			<Italian>Il server cercando di depositare il veicolo...</Italian>
+			<Italian>Il server sta cercando di depositare il veicolo...</Italian>
 			<Portuguese>O servidor está guardando o veiculo...</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_Selection_Error">
@@ -1237,7 +1237,7 @@
 			<Original>You do not have $%1 for a %2</Original>
 			<German>Du hast keine $%1 für einen %2</German>
 			<French>Tu n'as pas %1$ pour cet élément : %2</French>
-			<Italian>Non hai €%1 per $2</Italian>
+			<Italian>Non hai €%1 per %2</Italian>
 			<Portuguese>Você não tem R$%1 para %2</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_B_1">
@@ -1314,7 +1314,7 @@
 			<Original>You have sold a %1 for $%2</Original>
 			<German>Du hast einen %1 für $%2 verkauft</German>
 			<French>Tu as vendu cet élément : %1 pour $%2</French>
-			<Italian>Hai venduto un %1 per %2€</Italian>
+			<Italian>Hai venduto un %1 per €%2</Italian>
 			<Portuguese>Você vendeu %1 por R$%2</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Picked">
@@ -1356,7 +1356,7 @@
 			<Original>You do not have $%1 to be healed</Original>
 			<German>Du hast keine $%1, um geheilt zu werden.</German>
 			<French>Vous n'avez pas $%1 pour vous soignez.</French>
-			<Italian>Non hai €$1 per essere curato</Italian>
+			<Italian>Non hai €%1 per essere curato</Italian>
 			<Portuguese>Você não tem R$%1 para ser tratado</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_HS_Healing">
@@ -1664,6 +1664,7 @@
  			<Original>You need $%1 to process without a license!</Original>
 			<German>Du musst $%1 haben, um ohne eine Lizenz verarbeiten zu können!</German>
 			<French>Vous devez payer $%1 pour traiter sans licence!</French>
+			<Italian>Hai bisogno di €%1 per processare senza la dovuta licenza!</Italian>
 			<Portuguese>Você precisa de R$%1 para processar sem uma licença!</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_RapidAction">
@@ -1754,45 +1755,48 @@
  			<Original>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Original>
 			<German>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Fahrzeuginfo&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Besitzer&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</German>
 			<French>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</French>
-			<Italian>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Italian>
+			<Italian>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Informazioni Veicolo&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Italian>
 			<Portuguese>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_CannotSearchPerson">
 			<Original>Cannot search that person.</Original>
 			<German>Diese Person kann nicht durchsucht werden.</German>
 			<French>Cannot search that person.</French>
-			<Italian>Cannot search that person.</Italian>
+			<Italian>Non puoi perquisire quel giocatore.</Italian>
 			<Portuguese>Cannot search that person.</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Repairing">
  			<Original>Repairing %1</Original>
 			<German>Wird repariert %1</German>
 			<French>Repairing %1</French>
-			<Italian>Repairing %1</Italian>
+			<Italian>Riparando %1</Italian>
 			<Portuguese>Repairing %1</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_RepairingInVehicle">
  			<Original>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</Original>
 			<German>Du musst außerhalb des Fahrzeuges sein, um es zu reparieren. Entschuldigung, aber das soll verhindern, dass du das System missbrauchst, naja, nicht wirklich.</German>
 			<French>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</French>
-			<Italian>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</Italian>
+			<Italian>Devi essere fuori dal veicolo per ripararlo. Scusa se ciò eviterà di farti sfruttare bug di sistema, o almeno ci proverà.</Italian>
 			<Portuguese>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_RepairedVehicle">
  			<Original>You have repaired that vehicle.</Original>
 			<German>Du hast dieses Fahrzeug repariert.</German>
 			<French>You have repaired that vehicle.</French>
-			<Italian>You have repaired that vehicle.</Italian>
+			<Italian>Hai riparato il veicolo.</Italian>
 			<Portuguese>You have repaired that vehicle.</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_Gather_Success">
 			<Original>You have gathered %2 %1(s)</Original>
+			<Italian>Hai raccolto %2 %1</Italian>
 		</Key>
 		<Key ID="STR_NOTF_GatherVeh">
 			<Original>You can't gather from inside a car!</Original>
+			<Italian>Non puoi raccogliere nulla da dentro un veicolo!</Italian>
 		</Key>
 		<Key ID="STR_NOTF_NoLootingPerson">
 			<Original>You are not allowed to loot dead bodies</Original>
+			<Italian>Non sei autorizzato a prendere oggetti dai corpi</Italian>
 		</Key>
 	</Package>
 	<Package name="Jail_Strings">
@@ -1807,7 +1811,7 @@
 			<Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</Original>
 			<German>Bei der Verhaftung hast du folgende Lizenzen verloren\n\nWaffen Lizenz\nRebellen Lizenz</German>
 			<French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nFirearms License\nRebel License</French>
-			<Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
+			<Italian>A causa del tuo arresto hai perso le seguenti licenze se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
 			<Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
 		</Key>
 		<Key ID="STR_Jail_EscapeNOTF">
@@ -2237,7 +2241,7 @@
 			<Original>You have been restrained by %1</Original>
 			<German>Du wurdest von %1 festgenommen</German>
 			<French>Vous avez été menotté par %1</French>
-			<Italian>%1 ti ha tolto le manette</Italian>
+			<Italian>Sei stato ammanettato da %1</Italian>
 			<Portuguese>Você foi solto por %1</Portuguese>
 		</Key>
 	</Package>
@@ -2479,7 +2483,7 @@
 			<Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
 			<German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
 			<French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
-			<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
+			<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;€%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
 			<Portuguese>Essa casa está disponível por &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;&lt;br/&gt;Ela suporta até %2 caixa(s)</Portuguese>
 		</Key>
 		<Key ID="STR_House_Purchase">
@@ -2597,7 +2601,7 @@
 			<Original>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
 			<German>Bist Du sicher, dass du dein Haus verkaufen möchtest? Es wird für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt; verkauft</German>
 			<French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
-			<Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€1&lt;/t&gt;</Italian>
+			<Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€%1&lt;/t&gt;</Italian>
 			<Portuguese>Você tem certeza que deseja vender a casa? O valor de venda é: &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;</Portuguese>
 		</Key>
 	</Package>
@@ -2769,7 +2773,7 @@
 			<Original>Grilled Ornate</Original>
 			<German>Gegrillter Kaiserfisch</German>
 			<French>Angelfish grillé</French>
-			<Italian>Angelfish alla griglia</Italian>
+			<Italian>Orata alla griglia</Italian>
 			<Portuguese>Angelfish grelhado</Portuguese>
 		</Key>
 		<Key ID="STR_Item_MackerelMeat">
@@ -2797,7 +2801,7 @@
 			<Original>Grilled Tuna</Original>
 			<German>Gegrillter Thunfisch</German>
 			<French>Thon grillé</French>
-			<Italian>tonno alla griglia</Italian>
+			<Italian>Tonno grigliato</Italian>
 			<Portuguese>Atum grelhado</Portuguese>
 		</Key>
 		<Key ID="STR_Item_MulletMeat">
@@ -2825,7 +2829,7 @@
 			<Original>Fried Catshark</Original>
 			<German>Frittierter Katzenhai</German>
 			<French>roussette frit</French>
-			<Italian>profondo palombo fritti</Italian>
+			<Italian>Carne di Squalo fritta</Italian>
 			<Portuguese>profundo de cação frito</Portuguese>
 		</Key>
 		<Key ID="STR_Item_Turtle">
@@ -2839,56 +2843,56 @@
 			<Original>Raw Chicken</Original>
 			<German>Rohes Hühnchen</German>
 			<French>poulet cru</French>
-			<Italian>pollo crudo</Italian>
+			<Italian>Pollo crudo</Italian>
 			<Portuguese>galinha crua</Portuguese>
 		</Key>
 		<Key ID="STR_Item_HenFried">
 			<Original>Deep Fried Chicken</Original>
 			<German>Schwarz Frittiertes Hühnchen</German>
 			<French>Noir Fried Chicken</French>
-			<Italian>Nero Fried Chicken</Italian>
+			<Italian>Pollo fritto</Italian>
 			<Portuguese>Preto Fried Chicken</Portuguese>
 		</Key>
 		<Key ID="STR_Item_RoosterRaw">
 			<Original>Raw Rooster</Original>
 			<German>Roher Gockel</German>
 			<French>Coq Raw</French>
-			<Italian>Rooster Raw</Italian>
+			<Italian>Carne di Gallo cruda</Italian>
 			<Portuguese>Galo Raw</Portuguese>
 		</Key>
 		<Key ID="STR_Item_RoosterGrilled">
 			<Original>Grilled Rooster</Original>
 			<German>Gegrillter Gockel</German>
 			<French>Coq grillé</French>
-			<Italian>cazzo alla griglia</Italian>
+			<Italian>Gallo alla griglia</Italian>
 			<Portuguese>galo grelhado</Portuguese>
 		</Key>
 		<Key ID="STR_Item_GoatRaw">
 			<Original>Raw Goat</Original>
 			<German>Rohes Ziegenfleisch</German>
 			<French>chèvre cru</French>
-			<Italian>Carne di capra Raw</Italian>
+			<Italian>Carne di capra cruda</Italian>
 			<Portuguese>Carne de cabra cru</Portuguese>
 		</Key>
 		<Key ID="STR_Item_GoatGrilled">
 			<Original>Grilled Goat</Original>
 			<German>Gegrilltes Ziegenfleisch</German>
 			<French>chèvre grillé</French>
-			<Italian>Carne di capra alla griglia</Italian>
+			<Italian>Carne di capra grigliata</Italian>
 			<Portuguese>Carne de cabrito grelhado</Portuguese>
 		</Key>
 		<Key ID="STR_Item_SheepRaw">
 			<Original>Raw Sheep</Original>
 			<German>Rohes Schafsfleisch</German>
 			<French>brebis cru</French>
-			<Italian>Carne di pecora grezza</Italian>
+			<Italian>Carne di pecora cruda</Italian>
 			<Portuguese>Carne ovina Raw</Portuguese>
 		</Key>
 		<Key ID="STR_Item_SheepGrilled">
 			<Original>Grilled Sheep</Original>
 			<German>Gegrilltes Schafsfleisch</German>
 			<French>moutons grillés</French>
-			<Italian>Mutton alla griglia</Italian>
+			<Italian>Carne di pecora grigliata</Italian>
 			<Portuguese>Mutton grelhado</Portuguese>
 		</Key>
 		<Key ID="STR_Item_FishingPole">
@@ -3191,7 +3195,7 @@
 			<Original>Truck License</Original>
 			<German>LKW-Führerschein</German>
 			<French>Permis Poids Lourds</French>
-			<Italian>Licenza Camion</Italian>
+			<Italian>Patente Camion</Italian>
 			<Portuguese>Licença de Caminhão</Portuguese>
 		</Key>
 		<Key ID="STR_License_Diamond">
@@ -3431,14 +3435,14 @@
 			<Original>You are not near a mine!</Original>
 			<German>Du bist nicht in der Nähe einer Mine!</German>
 			<French>Vous n'êtes pas près d'une mine!</French>
-			<Italian>Non ti trovi vicino ad una mina!</Italian>
+			<Italian>Non ti trovi vicino ad una miniera!</Italian>
 			<Portuguese>Você não está próximo a uma mina!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_Pick_MineVeh">
 			<Original>You can't mine from inside a car!</Original>
 			<German>Du kannst nicht in deinem Auto abbauen!</German>
 			<French>Vous ne pouvez pas miner à l'intérieur d'une voiture!</French>	
-			<Italian>Non puoi piazzare mine da dentro un veicolo!</Italian>			
+			<Italian>Non puoi minare da dentro un veicolo!</Italian>			
 			<Portuguese>Você não pode minerar de dentro do carro!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_Pick_Success">
@@ -3487,35 +3491,35 @@
 			<Original>You need to select an item first!</Original>
 			<German>Du musst zuerst einen Gegenstand auswählen!</German>
 			<French>You need to select an item first!</French>
-			<Italian>You need to select an item first!</Italian>
+			<Italian>Devi selezionare un oggetto prima!</Italian>
 			<Portuguese>You need to select an item first!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_RedGullEffect">
 			<Original>You can now run farther for 3 minutes</Original>
 			<German>Du kannst jetzt für 3 Minuten weiterlaufen</German>
 			<French>You can now run farther for 3 minutes</French>
-			<Italian>You can now run farther for 3 minutes</Italian>
+			<Italian>Ora puoi correre ininterrottamente per 3 minuti</Italian>
 			<Portuguese>You can now run farther for 3 minutes</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_SpikesDeployment">
 			<Original>You already have a Spike Strip active in deployment</Original>
 			<German>Du stellst bereits ein Nagelband auf</German>
 			<French>You already have a Spike Strip active in deployment</French>
-			<Italian>You already have a Spike Strip active in deployment</Italian>
+			<Italian>Stai già cercando di posizionare una striscia chiodata</Italian>
 			<Portuguese>You already have a Spike Strip active in deployment</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_RefuelInVehicle">
 			<Original>You can't refuel the vehicle while in it!</Original>
 			<German>Du kannst ein Fahrzeug nicht betanken während du dich darin befindest!</German>
 			<French>You can't refuel the vehicle while in it!</French>
-			<Italian>You can't refuel the vehicle while in it!</Italian>
+			<Italian>Non puoi rifornire di carburante il veicolo mentre ne sei all'interno!</Italian>
 			<Portuguese>You can't refuel the vehicle while in it!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_NotUsable">
 			<Original>This item isn't usable.</Original>
 			<German>Dieser Gegenstand ist nicht benutzbar.</German>
 			<French>This item isn't usable.</French>
-			<Italian>This item isn't usable.</Italian>
+			<Italian>Quest'oggetto non è usabile.</Italian>
 			<Portuguese>This item isn't usable.</Portuguese>
 		</Key>
 	</Package>
@@ -3531,7 +3535,7 @@
 			<Original>Cutting Diamonds</Original>
 			<German>Diamanten werden geschliffen</German>
 			<French>Taillage de diamant</French>
-			<Italian>Raffinando diamanti</Italian>
+			<Italian>Raffinando Diamanti</Italian>
 			<Portuguese>Lapidando Diamante</Portuguese>
 		</Key>
 		<Key ID="STR_Process_Heroin">
@@ -3682,14 +3686,14 @@
 			<Original>Respawn Available in: %1</Original>
 			<German>Respawn verfügbar in: %1</German>
 			<French>Respawn Disponible dans: %1</French>
-			<Italian>Respawn disponibile in: $1</Italian>
+			<Italian>Respawn disponibile in: %1</Italian>
 			<Portuguese>Respawn Disponível em: %1</Portuguese>
 		</Key>
 		<Key ID="STR_Medic_Respawn_2">
 			<Original>You can now respawn</Original>
 			<German>Du kannst nun respawnen</German>
 			<French>Vous pouvez désormais réapparaître</French>
-			<Italian>Puoi ora fare respawn</Italian>
+			<Italian>Ora puoi fare respawn</Italian>
 			<Portuguese>Você pode dar respawn</Portuguese>
 		</Key>
 		<Key ID="STR_Medic_RevivePay">
@@ -3791,7 +3795,7 @@
 			<Original>Automatically reveals nearest objects within 15m, turn this setting off if you are experiencing performance issues.</Original>
 			<German>Zeigt automatisch nächstgelegene Objekte innerhalb von 15m an, deaktiviere es, wenn du Leistungprobleme hast.</German>
 			<French>Révèle automatiquement les objets les plus proches au sein de 15m, désactiver ce paramètre si vous rencontrez des problèmes de performance.</French>
-				<Italian>Rivela automaticamente gli oggettivi vicini entro 15m, disattiva quest'impostazione se riscontri dei problemi di perfomance di sistema.</Italian>
+			<Italian>Rivela automaticamente gli oggettivi vicini entro 15m, disattiva quest'impostazione se riscontri dei problemi di perfomance di sistema.</Italian>
 			<Portuguese>Revela objetos a 15m, desligue essa opção se está tendo problemas de performance.</Portuguese>
 		</Key>
 		<Key ID="STR_GUI_PlayTags">
@@ -4047,7 +4051,7 @@
 			<Original>Mine from device</Original>
 			<German>Vom Gerät abbauen</German>
 			<French>Dispositif de minage</French>
-			<Italian>Piazza mine dal veicolo</Italian>
+			<Italian>Raccogli dal veicolo</Italian>
 			<Portuguese>Minerar</Portuguese>
 		</Key>
 	</Package>
@@ -4063,7 +4067,7 @@
 			<Original>The server didn't find any player information matching your UID, attempting to add player to system.</Original>
 			<German>Der Server hat keine Spieler Informationen zu deiner UID gefunden, versuche, Spieler ins System hinzuzufügen.</German>
 			<French>Le serveur n'a pas trouvé toutes les informations de lecteur correspondant à votre UID, tentative d'ajout du joueur dans le système.</French>
-			<Italian>Il server non ha trovato alcuna informazione sul giocatore con il tuo UID, tentativo di aggiunta del giocatore al sistema.</Italian>
+			<Italian>Il server non ha trovato alcuna informazione sul giocatore con il tuo UID, tentativo di creazione del giocatore da parte del sistema.</Italian>
 			<Portuguese>O servidor não encontrou qualquer informação do jogador correspondente ao seu UID, tentando adicionar jogador para o sistema.</Portuguese>
 		</Key>
 		<Key ID="STR_Session_Error">
@@ -4077,7 +4081,7 @@
 			<Original>Received request from server... Validating...</Original>
 			<German>Empfangene Daten vom Server... Überprüfe...</German>
 			<French>Demande reçue du serveur... Validation...</French>
-			<Italian>Ricevuta richiesta dal server... Convalida...</Italian>
+			<Italian>Richiesta ricevuta dal server... Convalida in corso...</Italian>
 			<Portuguese>Pedido recebido do servidor... Validando...</Portuguese>
 		</Key>
 		<Key ID="STR_Session_SyncdAlready">
@@ -4471,21 +4475,21 @@
 			<Original>You sold a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
 			<German>Du hast eine %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; verkauft</German>
 			<French>Vous avez vendu un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
-			<Italian>Hai venduto un %1 al prezzo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Italian>
+			<Italian>Hai venduto un %1 al prezzo di &lt;t color='#8cff9b'&gt;€%2&lt;/t&gt;</Italian>
 			<Portuguese>Você vendeu %1 por &lt;t color='#8cff9b'&gt;R$%2&lt;/t&gt;</Portuguese>
 		</Key>
 		<Key ID="STR_Shop_Weapon_BoughtGang">
 			<Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; with the gangs funds.</Original>
 			<German>Du hast eine %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; mit dem Geld der Gang gekauft.</German>
 			<French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; avec les fonds du gang.</French>
-			<Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; con i fondi della Gang.</Italian>
+			<Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;€%2&lt;/t&gt; con i fondi della Gang.</Italian>
 			<Portuguese>Você comprou %1 por &lt;t color='#8cff9b'&gt;R$%2&lt;/t&gt; com o dinheiro da gangue.</Portuguese>
 		</Key>
 		<Key ID="STR_Shop_Weapon_BoughtItem">
 			<Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
 			<German>Du hast eine %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; gekauft</German>
 			<French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
-			<Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Italian>
+			<Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;€%2&lt;/t&gt;</Italian>
 			<Portuguese>Você comprou %1 por &lt;t color='#8cff9b'&gt;R$%2&lt;/t&gt;</Portuguese>
 		</Key>
 		<Key ID="STR_Shop_Weapon_ShopInv">
@@ -4531,14 +4535,14 @@
 			<Original>Drop Fishing Net</Original>
 			<German>Fischernetz auswerfen</German>
 			<French>Drop Fishing Net</French>
-			<Italian>Drop Fishing Net</Italian>		
+			<Italian>Posiziona rete da pesca</Italian>	
 			<Portuguese>Jogar Rede de Pesca</Portuguese>
 		</Key>
 		<Key ID="STR_pAct_RobPerson">
 			<Original>Rob Person</Original>
 			<German>Person ausrauben</German>
 			<French>Rob Person</French>
-			<Italian>Rob Person</Italian>		
+			<Italian>Deruba giocatore</Italian>		
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
 	</Package>
